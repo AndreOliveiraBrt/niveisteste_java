@@ -2,15 +2,15 @@ package lojinha.dto;
 
 public class ClienteDto {
     private int clienteId;
-    private String clienteNone;
+    private String clienteNome;
     private boolean clienteVip;
 
     public ClienteDto(){
 
     }
-    public ClienteDto(int clienteId, String clienteNone, boolean clienteVip){
+    public ClienteDto(int clienteId, String clienteNome, boolean clienteVip){
         this.clienteId=clienteId;
-        this.clienteNone=clienteNone;
+        this.clienteNome=clienteNome;
         this.clienteVip=clienteVip;
     }
 
@@ -22,12 +22,12 @@ public class ClienteDto {
         this.clienteId = clienteId;
     }
 
-    public String getClienteNone() {
-        return clienteNone;
+    public String getClienteNome() {
+        return clienteNome;
     }
 
-    public void setClienteNone(String clienteNone) {
-        this.clienteNone = clienteNone;
+    public void setClienteNome(String clienteNome) {
+        this.clienteNome = clienteNome;
     }
 
     public boolean isClienteVip() {
