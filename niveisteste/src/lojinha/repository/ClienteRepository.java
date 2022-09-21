@@ -10,12 +10,11 @@ public class ClienteRepository {
         switch (clienteId)
         {
             case 1:
-                //cliente = new Cliente(clienteId:1, clienteNome:"Teste", clienteVip: false);
+                cliente = new Cliente(1,"Teste", false);
                 break;
             case 2:
-                //cliente =new Cliente(clienteId:1, clienteNome:"Teste", clienteVip:true);
+                cliente =new Cliente(2, "Teste 2", true);
                 break;
-
             default:
                 cliente =null;
                 break;

@@ -15,6 +15,7 @@ public class ClienteService {
         clienteDto.setClienteId(cliente.getClienteId());
         clienteDto.setClienteNome(cliente.getClienteNome());
         clienteDto.setClienteVip(cliente.isClienteVip());
+
         return  clienteDto;
     }
 }
