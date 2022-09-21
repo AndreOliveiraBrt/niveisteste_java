@@ -2,7 +2,6 @@ import lojinha.dto.ClienteDto;
 import lojinha.repository.ClienteRepository;
 import lojinha.services.ClienteService;
 import lojinha.services.PromocaoService;
-import sun.misc.Cleaner;
 
 public class Main {
     public static void main(String[] args) throws Exception {
