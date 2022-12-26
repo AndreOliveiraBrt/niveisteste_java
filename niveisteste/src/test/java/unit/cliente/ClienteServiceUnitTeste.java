@@ -23,7 +23,7 @@ public class ClienteServiceUnitTeste {
         ClienteService clienteService = new ClienteService();
         ClienteDto clienteDto = clienteService.buscarCliente(clienteRepositoryMock,2);
 
-      //AsserT
+      //Assert
         Assertions.assertEquals(2,clienteDto.getClienteId());
     }
 }
