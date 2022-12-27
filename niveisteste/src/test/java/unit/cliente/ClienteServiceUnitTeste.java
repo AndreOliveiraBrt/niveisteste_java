@@ -25,5 +25,6 @@ public class ClienteServiceUnitTeste {
 
       //Assert
         Assertions.assertEquals(2,clienteDto.getClienteId());
+        //teste
     }
 }
