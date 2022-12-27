@@ -8,8 +8,8 @@ public class ProdutoDto {
 
     private  String produtoPreco;
 
-    //Public ProdutoDto(){
-    //}
+    public ProdutoDto(){
+    }
 
     public  ProdutoDto(int produtoId, String produtoNome, String produtoPreco){
         this.produtoId=produtoId;
